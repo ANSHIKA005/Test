@@ -1,139 +1,161 @@
 <!DOCTYPE html>
-
 <html>
+
 <head>
-	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<title>First assignment</title>
-<style type="text/css">
-* {
-    box-sizing: border-box;
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Module 3</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+  
+    <style type="text/css">
+    body {
+	overflow-x: hidden;
+}
+#header-nav {
+	height: 100px;
+	background-color: #0f1217 ;
 }
 
-h1 {
-    font-family: Arial, Helvetica, sans-serif;
-    text-align: center;
-}
-
-.container {
-    width: 100%;
+.navbar-brand {
+	text-decoration: none;
+	font-size: 50px;
+	color: white;
 
 }
 
-.box1, .box2, .box3  {
-    float: left;
-    width: 90%;
-    height: auto;
-    border: 2px solid black;
-    margin-right: auto;
-    margin-left: auto;
-    margin: 5px;
-    background: gray;
-    font-size: 18px;
+.navbar-brand:hover {
+text-decoration: none;
+color: white;
 }
 
-p {
-    padding: 15px;
+.d-flex {
+	font-size: 50px;
+	margin-top: 2%;
 }
 
-.title1 {
-    text-align: center;
-    float: right;
-    border: 2px solid black;
-    background-color: indianred;
-    width: 100px;
-    height: auto;
+.title {
+	font-size: 30px;
 }
 
-.title2 {
-    text-align: center;
-    float: right;
-    border: 2px solid black;
-    background-color: lightyellow;
-    width: 100px;
-    height: 25px;
+.row {
+	margin: 2px;
 }
 
-.title3 {
-    text-align: center;
-    float: right;
-    border: 2px solid black;
-    background-color: greenyellow;
-    width: 100px;
-    height: auto;
+.col-sm {
+	margin: 5px;
+	background: #c8c9cc;
 }
 
-@media (min-width: 992px) {
-    .box1 {
-        width: 32%
-    }
-    .box2 {
-        width: 32%;
-    }
-    .box3 {
-        width: 32%;
-    }
+.bottom {
+	font-size: 15px;
 }
-
-@media (max-width: 991px) and (min-width: 768px) {
-    .box1 {
-        width: 45%;
-    }
-    .box2 {
-        width: 45%;
-    }
-    .box3 {
-        width: 90%;
-    }
-}
-
-@media (max-width: 767px) {
-    .box1 {
-        width: 90%;
-    }
-    .box2 {
-        width: 90%;
-    }
-    .box3 {
-        width: 90%;
-    }
-}
-	</style>
+    </style>
 </head>
+
 <body>
-<h1>Our Menu</h1>
-	<div class = 'container'>
 
-<div class="box1">
-<section class="title1">Sushi</section>
+    <header>
+    	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="#">Food,LLC</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+      <ul class="navbar-nav ml-auto mb-2 mb-lg-0 d-lg-none">
+        <li class="nav-item">
+          <a class="nav-link" aria-current="page" href="#jump1">Chicken</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#jump2">Beef</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#jump3">Sushi</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+    </header>
+
+    <div class="d-flex justify-content-center" id="back">OUR MENU</div>
+
+<div class="container-fluid row">
+  <div class="col-sm"><section class="title d-flex justify-content-center" id="jump1">CHICKEN</section>
 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
 tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
 quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
 consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
 cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-</div>
-
-<div class="box2">
-<section class="title2">Beef</section>
-<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+proident, sunt in culpa qui officia deserunt mollit anim id est laborum.Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+proident, sunt in culpa qui officia deserunt mollit anim id est laborum.Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+proident, sunt in culpa qui officia deserunt mollit anim id est laborum.Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
 tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
 quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
 consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
 cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
 proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-</div>
+<a class="bottom d-flex justify-content-center" href="#back">Back to Top</a></div>
 
-<div class="box3">
-<section class="title3">Chicken</section>
+  <div class="col-sm"><section class="title d-flex justify-content-center" id="jump2">BEEF</section>
 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
 tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
 quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
 consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
 cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+proident, sunt in culpa qui officia deserunt mollit anim id est laborum.Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+proident, sunt in culpa qui officia deserunt mollit anim id est laborum.Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+proident, sunt in culpa qui officia deserunt mollit anim id est laborum.Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
 proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+<a class="bottom d-flex justify-content-center" href="#back">Back to Top</a></div>
+
+  <div class="col-sm"><section class="title d-flex justify-content-center" id="jump3">SUSHI</section>
+<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+proident, sunt in culpa qui officia deserunt mollit anim id est laborum.Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+proident, sunt in culpa qui officia deserunt mollit anim id est laborum.Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+proident, sunt in culpa qui officia deserunt mollit anim id est laborum.Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+<a class="bottom d-flex justify-content-center" href="#back">Back to Top</a></div>
 </div>
-
-
 </body>
+
 </html>
