@@ -1,3 +1,7 @@
+*{
+	box-sizing: border-box;
+}
+
 body {
 	overflow-x: hidden;
 }
@@ -18,24 +22,24 @@ text-decoration: none;
 color: white;
 }
 
-.d-flex {
-	font-size: 50px;
-	margin-top: 2%;
+.nav-link {
+	font-size: 20px;
 }
 
 .title {
-	font-size: 30px;
+	font-size: 50px;
+	margin-top: 2%;
 }
-
 .row {
-	margin: 2px;
+	padding: 50px;
+	margin-left: 25px;
 }
 
-.col-sm {
+.effect {
+	background-color: #c8c9cc;
 	margin: 5px;
-	background: #c8c9cc;
+	max-width: 450px;
 }
-
 .bottom {
 	font-size: 15px;
 }
